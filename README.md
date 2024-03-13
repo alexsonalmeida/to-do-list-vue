@@ -7,6 +7,7 @@ A aplicação consiste em um espaço para organização de tarefas a serem feita
 <img src="https://seeklogo.com/images/V/vuejs-logo-17D586B587-seeklogo.com.png" width="36px"/>
 <img src="https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png" width="36px"/>
 <img src="https://seeklogo.com/images/S/spring-logo-9A2BC78AAF-seeklogo.com.png" width="36px"/>
+<img src="https://seeklogo.com/images/P/postgresql-logo-5309879B58-seeklogo.com.png" width="36px"/>
 </div>
 
 ## 🚀 Requisitos funcionais
