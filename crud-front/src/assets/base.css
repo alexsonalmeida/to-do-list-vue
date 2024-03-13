@@ -1,0 +1,78 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --grey700: #020617;
+  --grey600: #0F172A;
+  --grey500: #1E293B;
+  --grey400: #475569;
+  --grey300: #94A3B8;
+  --grey200: #E2E8F0;
+  --grey100: #F8FAFC;
+
+  --main-blue: #44CCFF;
+  --blue100: #CFEFFA;
+  --blue200: #A4E5FD;
+  --blue300: #7BD8FB;
+  --blue500: #239DCA;
+  --blue600: #0D7297;
+  --blue700: #013F55;
+
+  --error: #EF3054;
+  --sucess: #049B6F;
+  --warning: #F4E04D;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--grey700);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--grey100);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    'Open Sans',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.input {
+  padding: 14px;
+  background-color: var(--grey700);
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 32px;
+  font-weight: 500;
+  color: var(--blue100);
+}
+
+.input::placeholder {
+  color: var(--grey400);
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.input:focus {
+  outline: 2px solid var(--grey500);
+}
